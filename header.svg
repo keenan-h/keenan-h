@@ -1,0 +1,204 @@
+<svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+	<foreignObject width="100%" height="100%">
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<style>
+                body {
+                    margin: 0;
+                    padding: 0;
+                }
+
+                .container {
+                  width: 100%;
+                  height: 400px;
+                }
+
+                #rain-container {
+                  width: 100%;
+                  height: 100%;
+                  display: flex;
+                  justify-content: space-between;
+                  overflow: hidden;
+                  animation: rainstop linear 10s infinite;
+                }
+
+                h1 {
+                  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+                  color: #c9d1d9;
+                  position: relative;
+                  top: -45px;
+                  margin: 0 0 0 10px;
+                }
+
+                .rain {
+                  width: 2px;
+                  height: 30px;
+                  background: lightblue;
+                  animation: rainfall linear 0.4s infinite;
+                  transform: translateY(-30px) rotate(-25deg);
+                }
+
+                #sun {
+                  width: 120px;
+                  height: 120px;
+                  background: linear-gradient(yellow, orange);
+                  border-radius: 50%;
+                  box-shadow: 0px 0px 30px yellow;
+                  position: absolute;
+                  top: 40px;
+                  right: 80px;
+                  animation: herecomesthe linear 10s infinite;
+                }
+
+                .rain:nth-of-type(2) {
+                  animation-delay: 848ms;
+                }
+
+                .rain:nth-of-type(3) {
+                  animation-delay: 251ms;
+                }
+
+                .rain:nth-of-type(4) {
+                  animation-delay: 609ms;
+                }
+
+                .rain:nth-of-type(5) {
+                  animation-delay: 117ms;
+                }
+
+                .rain:nth-of-type(6) {
+                  animation-delay: 1517ms;
+                }
+
+                .rain:nth-of-type(7) {
+                  animation-delay: 349ms;
+                }
+
+                .rain:nth-of-type(8) {
+                  animation-delay: 979ms;
+                }
+
+                .rain:nth-of-type(9) {
+                  animation-delay: 1316ms;
+                }
+
+                .rain:nth-of-type(10) {
+                  animation-delay: 819ms;
+                }
+
+                .rain:nth-of-type(11) {
+                  animation-delay: 1316ms;
+                }
+
+                .rain:nth-of-type(12) {
+                  animation-delay: 979ms;
+                }
+
+                .rain:nth-of-type(13) {
+                  animation-delay: 1979ms;
+                }
+
+                .rain:nth-of-type(14) {
+                  animation-delay: 167ms;
+                }
+
+                .rain:nth-of-type(15) {
+                  animation-delay: 783ms;
+                }
+                .rain:nth-of-type(16) {
+                  animation-delay: 1954ms;
+                }
+
+                .rain:nth-of-type(17) {
+                  animation-delay: 279ms;
+                }
+
+                .rain:nth-of-type(18) {
+                  animation-delay: 979ms;
+                }
+
+                .rain:nth-of-type(19) {
+                  animation-delay: 439ms;
+                }
+
+                .rain:nth-of-type(20) {
+                  animation-delay: 576ms;
+                }
+
+                @keyframes rainfall {
+                  0% {
+                    transform: rotate(-25deg) translateY(-50px);
+                  }
+                  100% {
+                    transform: rotate(-25deg) translateY(420px)
+                  }
+                }
+
+                @keyframes rainstop {
+                  0% {
+                    opacity: 0%
+                    transform: translateY(0px);
+                  }
+                  5% {
+                    opacity: 100%
+                    transform: translateY(0px);
+                  }
+                  70% {
+                    transform: translateY(0px);
+                  }
+                  90% {
+                    transform: translateY(800px)
+                  }
+                  95% {
+                    opacity: 0%
+                  }
+                  100% {
+                    transform: translateY(-800px);
+                    opacity: 0%
+                }
+                }
+
+                @keyframes herecomesthe {
+                  0% {
+                    opacity: 0%;
+                  }
+                  85% {
+                    opacity: 0%;
+                  }
+                  90% {
+                    opacity: 90%;
+                  }
+                  95% {
+                    opacity: 100%;
+                  }
+                }
+
+			</style>
+        <div class="container">
+            <div id="rain-container">
+                <div class="rain"></div>
+                <div class="rain"></div>
+                <div class="rain"></div>
+                <div class="rain"></div>
+                <div class="rain"></div>
+                <div class="rain"></div>
+                <div class="rain"></div>
+                <div class="rain"></div>
+                <div class="rain"></div>
+                <div class="rain"></div>
+                <div class="rain"></div>
+                <div class="rain"></div>
+                <div class="rain"></div>
+                <div class="rain"></div>
+                <div class="rain"></div>
+                <div class="rain"></div>
+                <div class="rain"></div>
+                <div class="rain"></div>
+                <div class="rain"></div>
+                <div class="rain"></div>
+            </div>
+            <h1>hi, i'm keenan</h1>
+            <div id="sun"></div>
+        </div>
+        </div>
+    </foreignObject>
+</svg>
