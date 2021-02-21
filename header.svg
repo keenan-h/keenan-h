@@ -39,7 +39,8 @@
                   position: relative;
                   top: -45px;
                   margin: 0;
-		  text-shadow: 0 0 3px #24292e
+		  -webkit-text-stroke-color: #24292e;
+		  text-shadow: 0 0 1px #24292e;
                 }
 
                 .rain {
