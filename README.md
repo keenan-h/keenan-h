@@ -3,7 +3,6 @@
 	<a href="https://github.com/keenan-h">
 		<img src="header.svg" width="800" height="400">
 	</a>
-	<br>
 </div>
 
 I'm a freelance Front-End Developer interested in unique and beautiful online experiences. I'm especially interested in things that disrupt one's expectations.
