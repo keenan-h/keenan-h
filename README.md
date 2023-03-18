@@ -4,6 +4,6 @@
 	</a>
 </div>
 
-I'm a hobbyist technologist sometimes.
+Web tools: HTML/CSS/Javascript, Python, Flask, Netlify (static), Heroku (dynamic).
 
-The code for how to use an SVG file to write CSS into a README is based off [this](https://github.com/sindresorhus/css-in-readme-like-wat) repository and you can find my CodePen for the above CSS animation [here](https://codepen.io/keenan-h/pen/oNYeYpo).
+The code for how to use an SVG file to write CSS into a README is based off [this](https://github.com/sindresorhus/css-in-readme-like-wat) repository.
